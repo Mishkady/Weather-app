@@ -1,7 +1,6 @@
 body {
     display: block;
-    background-color: #596e79;
-    justify-content: center;
+    background-color: white;
   }
   
   .searchBar {
@@ -23,7 +22,6 @@ body {
     margin: 20px auto;
     max-width: 800px;
     min-width: 800px;
-    justify-content: center;
   }
   
   header {
@@ -36,47 +34,14 @@ body {
   main {
     flex: 1 1 100%;
     padding: 25px 25px 50px;
-    align-items: center;
-    text-align: center;
   }
   
-  .location h1 {
+  h1 {
     color: #c7b198;
-    font-size: 32px;
+    font-size: 64px;
     font-weight: 500;
     margin-bottom: 5px;
-  }
   
-  .location h2 {
-    color: #c7b198;
-    font-size: 16px;
-  }
-  
-  h3 {
-    color: #c7b198;
-    font-size: 16px;
-    margin: 10px;
-  }
-  
-  .current #temp-current {
-    color: #c7b198;
-    font-size: 74px;
-    font-weight: 500;
-    margin: 10px 0px;
-    text-shadow: 2px 5px 3px rgba(158, 158, 158, 0.3);
-  }
-  
-  .current .weather {
-    color: #c7b198;
-    font-size: 32px;
-  
-    margin-bottom: 15px;
-  }
-  
-  .current .hi-low {
-    color: #c7b198;
-    font-size: 24px;
-    font-weight: 500;
   }
   
   .form-center {
@@ -131,8 +96,23 @@ body {
     align-items: center;
   }
   
-  .footer a {
-    display: flex;
-    justify-content: center;
+  small {
+    display: block;
+    text-align: center;
     
+  }
+
+  li {
+    list-style: none;
+    color: #c7b198;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
   }
