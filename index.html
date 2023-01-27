@@ -37,6 +37,7 @@
 
 <! -- Body starts here-->
       <div class="app-wrap">
+        <div class="overview">
         <main>
 
           <h1>Melbourne</h1>
@@ -44,11 +45,25 @@
             <li class="date-display">Friday 05:00</li>
             <li>Clear</li>
           </ul>
+        </div>
 
           <div class="row">
             <div class="col-6">
-              <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear">
-              12°C | °F
+              <div class="clearfix weather-temperature">
+              <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" 
+              alt="Clear" 
+              class="float-left"
+              >
+              <div class="float-left">
+               <strong>12</strong>
+               <span class="units">
+                °C | 
+                <a href="#">
+                  °F
+                </a>
+              </span>
+              </div>
+              </div>
             </div>
 
             <div class="col-6">
