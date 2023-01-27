@@ -1,0 +1,130 @@
+body {
+    display: block;
+    background-color: #e2d1c3;
+    justify-content: center;
+  }
+  
+  .searchBar {
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 14px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    justify-content: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location h1 {
+    color: #ea8a8a;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location h2 {
+    color: #ea8a8a;
+    font-size: 16px;
+  }
+  
+  h3 {
+    color: #ea8a8a;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .current #temp-current {
+    color: #ea8a8a;
+    font-size: 74px;
+    font-weight: 500;
+    margin: 10px 0px;
+    text-shadow: 2px 5px rgba(158, 158, 158, 0.3);
+  }
+  
+  .current .weather {
+    color: #ea8a8a;
+    font-size: 32px;
+  
+    margin-bottom: 15px;
+  }
+  
+  .current .hi-low {
+    color: #ea8a8a;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .form-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #city-input {
+    width: 500px;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+  }
+  
+  #submit-bar {
+    margin: 0 5px;
+    width: 150px;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #ea8a8a;
+    box-shadow: 0px 0px 2px 2px #ea8a8a;
+    transition: 500ms ease-in-out;
+  }
+  
+  #submit-bar:hover {
+    background-color: white;
+    color: #ea8a8a;
+  }
+  
+  #location {
+    display: flex;
+    margin: 10px 0px;
+    background: #ea8a8a;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    
+  }
