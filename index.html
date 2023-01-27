@@ -16,6 +16,9 @@
   </head>
   <body>
     <div class="container">
+      
+<! -- Header with searchbar-->
+
       <div class="searchBar">
         <div class="row">
           <div class="form-center">
@@ -23,33 +26,37 @@
               <input
                 type="search"
                 id="city-input"
-                placeholder="Enter city name."
+                placeholder=" Enter city name."
               />
-
               <input type="submit" id="submit-bar" value="Search" />
-              <button id="location">
-                  Current Location
-                </button>
+              <input type="submit" id="location" value="Current Location" />  
             </form>
           </div>
         </div>
       </div>
 
+<! -- Body starts here-->
       <div class="app-wrap">
         <main>
+
           <section class="location">
             <h1>City</h1>
             <h2></h2>
             <h3></h3>
           </section>
+
           <div class="current">
             <div id="weather" class="weather-temperature"></div>
             <div id="temp-current">Temp</div>
-            </div>
+          </div>
+
             <div class="footer"><a href="https://github.com/Mishkady/Week6HWAdv">Open Sourced</a> on Github. Coded By J. Bozhinova.</div>
-          </main>
-          </div>
-          </div>
+
+        </main>
+      </div>
+
+
+    </div>
           
   </body>
   <script src="src/index.js"></script>

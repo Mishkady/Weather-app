@@ -1,26 +1,28 @@
 body {
     display: block;
-    background-color: #e2d1c3;
+    background-color: #596e79;
     justify-content: center;
   }
   
   .searchBar {
     display: block;
     border-radius: 10px;
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background: #596e79;
     padding: 14px;
     margin: 20px auto;
     max-width: 800px;
+    min-width: 800px;
   }
   
   .app-wrap {
     display: flex;
     flex-direction: column;
     min-height: 50vh;
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background: #596e79;
     border-radius: 10px;
     margin: 20px auto;
     max-width: 800px;
+    min-width: 800px;
     justify-content: center;
   }
   
@@ -39,40 +41,40 @@ body {
   }
   
   .location h1 {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 5px;
   }
   
   .location h2 {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 16px;
   }
   
   h3 {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 16px;
     margin: 10px;
   }
   
   .current #temp-current {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 74px;
     font-weight: 500;
     margin: 10px 0px;
-    text-shadow: 2px 5px rgba(158, 158, 158, 0.3);
+    text-shadow: 2px 5px 3px rgba(158, 158, 158, 0.3);
   }
   
   .current .weather {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 32px;
   
     margin-bottom: 15px;
   }
   
   .current .hi-low {
-    color: #ea8a8a;
+    color: #c7b198;
     font-size: 24px;
     font-weight: 500;
   }
@@ -84,6 +86,7 @@ body {
   }
   
   #city-input {
+    margin: 10px 5px;
     width: 500px;
     height: 3em;
     border-radius: 10px;
@@ -92,30 +95,35 @@ body {
   }
   
   #submit-bar {
-    margin: 0 5px;
-    width: 150px;
-    height: 3em;
+    margin: 10px 5px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: none;
     color: #ffffff;
-    background-color: #ea8a8a;
-    box-shadow: 0px 0px 2px 2px #ea8a8a;
+    background-color: #c7b198;
+    box-shadow: 0px 0px 2px 2px #dfd3c3;
     transition: 500ms ease-in-out;
   }
   
   #submit-bar:hover {
     background-color: white;
-    color: #ea8a8a;
+    color: #c7b198;
   }
   
   #location {
-    display: flex;
-    margin: 10px 0px;
-    background: #ea8a8a;
+    margin: 10px 5px;
+    background: #c7b198;
     color: #fff;
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
+    box-shadow: 0px 0px 2px 2px #dfd3c3;
+    transition: 500ms ease-in-out;
+  }
+
+  #location:hover {
+    background-color: white;
+    color: #c7b198;
   }
   
   .container {
