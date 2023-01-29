@@ -51,15 +51,15 @@ form.addEventListener("submit", search);
 //Weather by city
 
 function searchCity(city) {
-  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let apiKey = "cb7a1f94a677ff0a9cee6a9fd5570d15";
   let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(showTemperature);
 }
 
 function showTemperature(response) {
-  let h1 = document.querySelector("h1");
-  h1.innerHTML = response.data.name;
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = response.data.main.temp;
   let temperature = Math.round(response.data.main.temp);
   console.log(temperature);
   console.log(response);

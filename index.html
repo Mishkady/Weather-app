@@ -40,10 +40,10 @@
         <div class="overview">
         <main>
 
-          <h1>Melbourne</h1>
+          <h1 id="city"></h1>
           <ul>
             <li class="date-display">Friday 05:00</li>
-            <li>Clear</li>
+            <li id="description"></li>
           </ul>
         </div>
 
@@ -55,7 +55,7 @@
               class="float-left"
               >
               <div class="float-left">
-               <strong>12</strong>
+               <strong id="temperature"></strong>
                <span class="units">
                 °C | 
                 <a href="#">
@@ -68,9 +68,8 @@
 
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 2kn/h </li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h </li>
               </ul>
             </div>
           </div>
@@ -81,5 +80,5 @@
     
     </div>
   </body>
-  <script src="src/index.js"></script>
+  <script src="src/app.js"></script>
 </html>
