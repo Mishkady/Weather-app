@@ -147,3 +147,13 @@ body {
     color: #c7b198;
 
   }
+
+  .weather-temperature .active {
+    color: #c7b198;
+    cursor: default;
+  }
+
+  .weather-temperature .active:hover {
+    text-decoration: none;
+    
+  }
