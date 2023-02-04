@@ -11,6 +11,7 @@ body {
     margin: 20px auto;
     max-width: 800px;
     min-width: 800px;
+    box-shadow: 5px 10px 10px #888888;
   }
   
   .app-wrap {
@@ -22,6 +23,8 @@ body {
     margin: 20px auto;
     max-width: 800px;
     min-width: 800px;
+    box-shadow: 5px 10px 10px #888888;
+
   }
   
   header {
@@ -61,7 +64,7 @@ body {
   
   #submit-bar {
     margin: 10px 5px;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 10px;
     border: none;
     color: #ffffff;

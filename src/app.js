@@ -22,6 +22,8 @@
     return `${day}, ${hours}:${minutes}`;
   }
 
+
+
   function formatDay(timestamp) {
     let date = new Date(timestamp * 1000);
     let day = date.getDay();
@@ -112,7 +114,7 @@
     let cityInputElement = document.querySelector("#city-input");
     search(cityInputElement.value);
   }
-   
+
     function displayFahrenheitTemperature(event) {
         event.preventDefault();
         let temperatureElement = document.querySelector("#temperature");
